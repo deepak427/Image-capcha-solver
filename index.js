@@ -13,9 +13,9 @@ rl.question(
       method: "POST",
       url: "https://image-captcha-solver.p.rapidapi.com/recognizeUrl",
       headers: {
-        "content-type": "application/json",
-        "X-RapidAPI-Key": "94513d2b5fmsh75a7fba5ede1876p1b27aejsn63c5e8c5de8e",
-        "X-RapidAPI-Host": "image-captcha-solver.p.rapidapi.com",
+        'content-type': 'application/json',
+        'X-RapidAPI-Key': "94513d2b5fmsh75a7fba5ede1876p1b27aejsn63c5e8c5de8e",
+        'X-RapidAPI-Host': "image-captcha-solver.p.rapidapi.com"
       },
       data: `{"url": "${imageUrl}" }`,
     };
